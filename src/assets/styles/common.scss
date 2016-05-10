@@ -1,0 +1,16 @@
+/*
+翻页效果
+*/
+.page-enter {
+  z-index: 2002;
+  -webkit-animation: pageFromRightToCenter 400ms forwards;
+  -o-animation: pageFromRightToCenter 400ms forwards;
+  animation: pageFromRightToCenter 400ms forwards
+}
+.page-leave {
+  z-index: 2002;
+  /*display: none;*/
+  -webkit-animation: pageFromCenterToRight 400ms forwards;
+  -o-animation: pageFromCenterToRight 400ms forwards;
+  animation: pageFromCenterToRight 400ms forwards
+}

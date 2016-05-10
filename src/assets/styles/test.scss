@@ -1,0 +1,49 @@
+//适配字号
+@mixin font-dpr($font-size) {
+  font-size: $font-size;
+
+  [data-dpr="2"] & {
+    font-size: $font-size * 1.2;
+
+  }
+
+  [data-dpr="3"] & {
+    font-size: $font-size * 1.6;
+
+  }
+}
+
+.text-36 {
+  @include font-dpr(36px);
+}
+.text-32 {
+  @include font-dpr(32px);
+}
+
+.text-30 {
+  @include font-dpr(30px);
+}
+.text-28 {
+  @include font-dpr(28px);
+}
+
+.text-26 {
+  @include font-dpr(26px);
+}
+
+.text-24 {
+  @include font-dpr(24px);
+}
+
+.text-22 {
+  @include font-dpr(22px);
+}
+.text-20 {
+  @include font-dpr(20px);
+}
+.text-18 {
+  @include font-dpr(16px);
+}
+.text-16 {
+  @include font-dpr(16px);
+}

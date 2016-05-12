@@ -22,7 +22,8 @@ module.exports = {
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components'),
       'sui':path.resolve(__dirname,'../src/vendors/sui/sm-0.6.2.js'),
-      'zepto':path.resolve(__dirname,'../src/vendors/sui/zepto.js')
+      'zepto':path.resolve(__dirname,'../src/vendors/sui/zepto.js'),
+      'vux-components': 'vux/components'
     }
   },
   resolveLoader: {
@@ -39,6 +40,10 @@ module.exports = {
         loader: 'babel',
         include: projectRoot,
         exclude: /node_modules/
+      },
+      {
+        test: /vux.src.*?js$/,
+        loader: 'babel'
       },
       {
         test: /\.json$/,

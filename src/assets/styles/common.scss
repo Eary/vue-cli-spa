@@ -1,3 +1,39 @@
+//sui page
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #eee;
+  z-index: 2000
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch
+}
+.content-padded {
+  margin: .5rem
+}
+
+.page-group.page-current,.page-group.page-from-center-to-left,.page-group.page-from-center-to-right,.page-group.page-from-left-to-center,.page-group.page-from-right-to-center,.page-group.page-visible,.page.page-current,.page.page-from-center-to-left,.page.page-from-center-to-right,.page.page-from-left-to-center,.page.page-from-right-to-center,.page.page-visible {
+  display: block
+}
+
+.page-group.page-current,.page.page-current {
+  overflow: hidden
+}
+
+.page-group {
+  display: block
+}
+
 /*
 翻页效果
 */

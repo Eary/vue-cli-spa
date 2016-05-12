@@ -8,7 +8,7 @@
           <img class="weui_media_appmsg_thumb" :src="item.src" alt="">
         </div>
         <div class="weui_media_bd">
-          <h4 class="weui_media_title">{{item.title}}</h4>
+          <h4 class="weui_media_title">{{item[titleFlag]}}</h4>
           <p class="weui_media_desc">{{item.desc}}</p>
         </div>
       </a>
@@ -45,7 +45,8 @@ export default {
     type: {
       type: String,
       default: '1'
-    }
+    },
+    titleFlag:String
   },
   methods: {
     onClickFooter () {

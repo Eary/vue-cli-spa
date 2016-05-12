@@ -33,7 +33,7 @@
       </flexbox-item>
     </flexbox>
   </div>
-  <car-brand-panel v-if="isShowCarBrand"></car-brand-panel>
+  <car-brand-panel v-if="isShowCarBrand" transition="page"></car-brand-panel>
 </template>
 <script>
   import Flexbox from "./ui/Flexbox"

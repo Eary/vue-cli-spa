@@ -5,6 +5,7 @@
 <script>
 import Register from './components/Register'
 
+
 export default {
     data(){
         return {

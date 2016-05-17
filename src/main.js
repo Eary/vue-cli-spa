@@ -6,9 +6,11 @@ import Vue from 'vue'
 import App from './App'
 import XHeader from "./components/ui/Header"
 
+
+
 Vue.component('x-header',XHeader)
 /* eslint-disable no-new */
-new Vue({
+var test = window.testvm = new Vue({
   el: 'body',
   components: { App }
 })

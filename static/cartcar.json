@@ -1,0 +1,152 @@
+{
+  "errCode": 0,
+  "list": [
+    {
+      "type": [
+        {
+          "cartcar": [
+            {
+              "cartCarId": 98025,
+              "content": "2015款 Sportback 40 TFSI 自动舒适型",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/29e82006-ebc9-4777-91f9-6afeb1c749bc.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "26.56"
+            },
+            {
+              "cartCarId": 98038,
+              "content": "2015款 Sportback 40 TFSI 自动豪华型",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/96ed5059-638d-4313-80fa-8e16840dda2f.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "29.27"
+            },
+            {
+              "cartCarId": 98039,
+              "content": "2015款 Limousine 40 TFSI 自动舒适型",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/b6eeec4b-a321-4750-86c2-a9a84b451de6.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "26.96"
+            },
+            {
+              "cartCarId": 98040,
+              "content": "2015款 Limousine 40 TFSI 自动豪华型",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/c0a70242-4ee1-44fe-81e7-72232998f91b.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "29.67"
+            }
+          ],
+          "modelYear": "2015款"
+        }
+      ],
+      "volume": "1.8L"
+    },
+    {
+      "type": [
+        {
+          "cartcar": [
+            {
+              "cartCarId": 98020,
+              "content": "2015款 Sportback 35 TFSI 百万纪念智领型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/e7d759c6-554e-4d47-be51-e99e22590167.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "22.79"
+            },
+            {
+              "cartCarId": 98021,
+              "content": "2015款 Sportback 35 TFSI 百万纪念舒享型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/bee02f9e-2f85-4abf-9589-4d9d5a236964.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "23.98"
+            },
+            {
+              "cartCarId": 98022,
+              "content": "2015款 Sportback 35 TFSI 百万纪念乐享型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/beec4505-5db9-4629-bc92-b7f6085ceda7.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "27.57"
+            },
+            {
+              "cartCarId": 98027,
+              "content": "2015款 Limousine 35 TFSI 百万纪念智领型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/45202b76-70c3-4c8a-a87d-9b5b2d21d8bf.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "23.39"
+            },
+            {
+              "cartCarId": 98028,
+              "content": "2015款 Limousine 35TFSI 百万纪念舒享型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/1e8ff7dd-9469-4946-a69b-0f8a294b801e.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "24.58"
+            },
+            {
+              "cartCarId": 98029,
+              "content": "2015款 Limousine 35 TFSI 百万纪念乐享型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/f6f0d682-79a8-49b3-8dcf-fa7b32517447.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "28.17"
+            }
+          ],
+          "modelYear": "2015款"
+        },
+        {
+          "cartcar": [
+            {
+              "cartCarId": 98019,
+              "content": "2014款 Sportback 35 TFSI 自动进取型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/75e47373-c541-4a54-9272-eb9480ac0072.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "19.99"
+            },
+            {
+              "cartCarId": 98026,
+              "content": "2014款 Limousine 35 TFSI 自动进取型 减税",
+              "driveprice": "200.00",
+              "gearboxType": "0",
+              "image": "http://meimeimaicar.com:88/2015/08/10/91ba3206-ba19-4e2d-bf1b-2028e93d19b7.jpg",
+              "maxprice": "",
+              "minprice": "",
+              "price": "20.59"
+            }
+          ],
+          "modelYear": "2014款"
+        }
+      ],
+      "volume": "1.4L"
+    }
+  ],
+  "msg": "请求成功",
+  "num": 381
+}

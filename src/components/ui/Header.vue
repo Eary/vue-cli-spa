@@ -53,7 +53,7 @@
     position: relative;
     padding: 3px 0;
     -webkit-box-sizing: border-box;
-    background-color: #35495e;
+    background-color: #fff;
   }
   .x-header .x-header-title,.x-header h1 {
     margin: 0 88px;
@@ -67,10 +67,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: #fff
+    color: #333
   }
   .x-header .x-header-title a,.x-header .x-header-title a:active,.x-header h1 a,.x-header h1 a:active {
-    color: #fff
+    color: #333
   }
   .x-header .x-header-left,.x-header .x-header-right {
     position: absolute;

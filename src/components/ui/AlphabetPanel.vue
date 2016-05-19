@@ -27,8 +27,8 @@
         <!--type==='1'-->
         <a href="javascript:;" v-for="data in item.datas" @click="onItemClick(data)"
            class="weui_media_box weui_media_appmsg" v-if="type === '1'">
-          <div class="weui_media_hd" v-if="data.src">
-            <img class="weui_media_appmsg_thumb" :src="data.src" alt="">
+          <div class="weui_media_hd" v-if="data[imgFlag]">
+            <img class="weui_media_appmsg_thumb" :src="data[imgFlag]" alt="">
           </div>
           <div class="weui_media_bd">
             <h4 class="weui_media_title">{{data[titleFlag]}}</h4>
@@ -50,7 +50,8 @@
         type: String,
         default: '1'
       },
-      titleFlag: String
+      titleFlag: String,
+      imgFlag: String
     },
     data(){
       return {
@@ -79,7 +80,7 @@
         this.$dispatch('on-click-header')
       },
       onItemClick (item) {
-        this.$dispatch('on-click-item', item)
+        this.$dispatch('on-click-alphabet-item', item)
       },
       letterByPinyin: function (a, b) {
         return a.letter.localeCompare(b.letter);

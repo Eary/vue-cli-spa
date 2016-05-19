@@ -78,13 +78,13 @@
       },
       getRegisterCode(){
         let me = this;
-//        me.$http.post(mmapi.getRegisterCode,{
-//          info:"{telephone:"+me.telephone+"}"
-//        }).then(function(response){
-//          console.info(response)
-//        }, function(err){
-//
-//        });
+        me.$http.post(mmapi.getRegisterCode,{
+          info:"{telephone:"+me.telephone+"}"
+        }).then(function(response){
+          console.info(response)
+        }, function(err){
+
+        });
       },
       updateRegister(){
         this.isShowCarBrand = true;

@@ -7,6 +7,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, 'dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+    // assetsPublicPath: 'http://html.kieran.top/2016/mmcar/',
     productionSourceMap: true
   },
   dev: {

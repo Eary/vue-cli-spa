@@ -23,6 +23,7 @@ module.exports = {
       'components': path.resolve(__dirname, '../src/components'),
       'sui':path.resolve(__dirname,'../src/vendors/sui/sm-0.6.2.js'),
       'zepto':path.resolve(__dirname,'../src/vendors/sui/zepto.js'),
+      'mmapi':path.resolve(__dirname,'../src/vendors/mmapi'),
       'vux-components': 'vux/components'
     }
   },
@@ -58,7 +59,7 @@ module.exports = {
         loader: 'url',
         query: {
           limit: 10000,
-          name: utils.assetsPath('img/[name].[hash:7].[ext]')
+          name: utils.assetsPath('img/[name].[ext]')
         }
       },
       {

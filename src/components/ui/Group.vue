@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import GroupTitle from '../group-title/'
+  import GroupTitle from './GroupTitle'
 
   export default {
     components: {

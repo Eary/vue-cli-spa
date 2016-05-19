@@ -13,13 +13,8 @@
             }
         },
         components:{
-            'other-component':OtherComponent,
-            HeaderComponent,
         }
     }
 </script>
 <style scope>
-    body{
-        background-color:#ff0000;
-    }
 </style>

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad9078-88c7-4102-8cab-cfe446747822" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/styles/common.scss" afterPath="$PROJECT_DIR$/src/assets/styles/common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CarBrandPanel.vue" afterPath="$PROJECT_DIR$/src/components/CarBrandPanel.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Register.vue" afterPath="$PROJECT_DIR$/src/components/Register.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue" afterPath="$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/cartype.json" afterPath="$PROJECT_DIR$/static/cartype.json" />
     </list>
     <ignored path="mmcar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="Panel.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ui/Panel.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-463">
-              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+            <state relative-caret-position="1410">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -37,8 +40,8 @@
       <file leaf-file-name="vux.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/styles/vux.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="2625" column="21" selection-start-line="2625" selection-start-column="21" selection-end-line="2625" selection-end-column="21" />
+            <state relative-caret-position="61">
+              <caret line="2621" column="19" selection-start-line="2621" selection-start-column="19" selection-end-line="2621" selection-end-column="19" />
               <folding>
                 <element signature="e#28762#33702#1" expanded="true" />
                 <element signature="e#76077#77384#2" expanded="true" />
@@ -48,40 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarBrandPanel.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarBrandPanel.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/CarBrandPanel.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#2269#2303#0" expanded="true" />
+                <element signature="e#2264#2298#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterDone.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/RegisterDone.vue">
+      <file leaf-file-name="AlphabetPanel.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="e#1289#1323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="120">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,12 +77,32 @@
       <file leaf-file-name="Register.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Register.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="73" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="73" />
+            <state relative-caret-position="1035">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#1664#1698#0" expanded="true" />
+                <element signature="e#1997#2031#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cartype.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/cartype.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,8 +110,18 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/styles/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ui/Header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -156,19 +174,19 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/src/vendors/mmapi.js" />
-        <option value="$PROJECT_DIR$/static/cartype.json" />
         <option value="$PROJECT_DIR$/src/components/CarModelPopup.vue" />
-        <option value="$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue" />
         <option value="$PROJECT_DIR$/static/cartcar.json" />
         <option value="$PROJECT_DIR$/src/components/ui/Tab.vue" />
         <option value="$PROJECT_DIR$/src/components/ui/Panel.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/Register.vue" />
-        <option value="$PROJECT_DIR$/src/components/CarBrandPanel.vue" />
-        <option value="$PROJECT_DIR$/src/assets/styles/common.scss" />
         <option value="$PROJECT_DIR$/src/components/ui/Header.vue" />
         <option value="$PROJECT_DIR$/src/components/RegisterDone.vue" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/Register.vue" />
+        <option value="$PROJECT_DIR$/static/cartype.json" />
+        <option value="$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue" />
+        <option value="$PROJECT_DIR$/src/assets/styles/common.scss" />
+        <option value="$PROJECT_DIR$/src/components/CarBrandPanel.vue" />
       </list>
     </option>
   </component>
@@ -262,6 +280,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,7 +330,169 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmcar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,7 +540,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="h&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;reg&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/Register.vue&#10;re&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/Register.vue&#10;vux.cs&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/vux.css&#10;tab&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Tab.vue&#10;comm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/common.scss&#10;H&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;pro&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.prod.conf.js&#10;ba&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;mm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/mmapi.js&#10;ap&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/AlphabetPanel.vue&#10;da&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/static/data.json&#10;data&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/static/data.json&#10;al&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/AlphabetPanel.vue&#10;conf&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/config.js&#10;main&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/main.js&#10;com&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/common.js&#10;fetch&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/node_modules/whatwg-fetch/fetch.js&#10;base&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;prod&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.prod.conf.js&#10;vu&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/vux.css&#10;head&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;butt&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/XButton.vue&#10;pa&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/package.json&#10;hea&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;app&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/App.vue&#10;car&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/CarBrandPanel.vue&#10;ase&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;ind&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/template/index.html&#10;ma&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/main.js&#10;sm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/sui/sm-0.6.2.js" />
+    <property name="SearchEverywhereHistoryKey" value="H&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;al&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/AlphabetPanel.vue&#10;h&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;reg&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/Register.vue&#10;re&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/Register.vue&#10;vux.cs&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/vux.css&#10;tab&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Tab.vue&#10;comm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/common.scss&#10;pro&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.prod.conf.js&#10;ba&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;mm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/mmapi.js&#10;ap&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/AlphabetPanel.vue&#10;da&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/static/data.json&#10;data&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/static/data.json&#10;conf&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/config.js&#10;main&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/main.js&#10;com&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/common.js&#10;fetch&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/node_modules/whatwg-fetch/fetch.js&#10;base&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;prod&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.prod.conf.js&#10;vu&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/assets/styles/vux.css&#10;head&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;butt&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/XButton.vue&#10;pa&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/package.json&#10;hea&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/ui/Header.vue&#10;app&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/App.vue&#10;car&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/components/CarBrandPanel.vue&#10;ase&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/build/webpack.base.conf.js&#10;ind&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/template/index.html&#10;ma&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/main.js&#10;sm&#9;FILE&#9;file:///Users/chenghaolan/Documents/projects/outsourcing/mmcar/src/vendors/sui/sm-0.6.2.js" />
     <property name="editor.config.accepted" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
@@ -446,18 +640,18 @@
       <workItem from="1463452937569" duration="270000" />
       <workItem from="1463477739253" duration="397000" />
       <workItem from="1463478831430" duration="1955000" />
-      <workItem from="1463494772403" duration="38481000" />
+      <workItem from="1463494772403" duration="42509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86325000" />
+    <option name="totallyTimeSpent" value="90353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19459888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12311358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013698" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -505,21 +699,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/FlexboxItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -673,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="541" column="13" selection-start-line="541" selection-start-column="7" selection-end-line="541" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Hello.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
@@ -793,14 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ui/TabItem.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -814,26 +977,6 @@
         <state relative-caret-position="1172">
           <caret line="147" column="5" selection-start-line="53" selection-start-column="4" selection-end-line="147" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/cartype.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5924" selection-start-line="0" selection-start-column="5924" selection-end-line="0" selection-end-column="5924" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/vux.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="2625" column="21" selection-start-line="2625" selection-start-column="21" selection-end-line="2625" selection-end-column="21" />
-          <folding>
-            <element signature="e#28762#33702#1" expanded="true" />
-            <element signature="e#76077#77384#2" expanded="true" />
-            <element signature="e#77893#78560#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,72 +996,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/Panel.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/bk-logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ui/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1664#1698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CarBrandPanel.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#2269#2303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RegisterDone.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#1289#1323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
@@ -927,6 +1014,118 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RegisterDone.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#1289#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/XInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#120#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vux/src/components/x-input/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+          <folding>
+            <element signature="e#1020#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/Panel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/vux.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="2621" column="19" selection-start-line="2621" selection-start-column="19" selection-end-line="2621" selection-end-column="19" />
+          <folding>
+            <element signature="e#28762#33702#1" expanded="true" />
+            <element signature="e#76077#77384#2" expanded="true" />
+            <element signature="e#77893#78560#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1997#2031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/cartype.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ui/AlphabetPanel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CarBrandPanel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2264#2298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

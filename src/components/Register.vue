@@ -8,13 +8,13 @@
       <flexbox class="mm-border-bottom">
         <flexbox-item>
           <div class="flex-demo">
-            <x-input placeholder="手机号码"></x-input>
+            <x-input v-ref:inputmobile :required="true" :value.sync="telephone" keyboard="number" is-type="china-mobile" placeholder="手机号码"></x-input>
           </div>
         </flexbox-item>
       </flexbox>
       <flexbox class="mm-border-bottom">
         <flexbox-item>
-          <x-input placeholder="请输入验证码"></x-input>
+          <x-input v-ref:inputregistercode :value.sync="registerCode" placeholder="请输入验证码" keyboard="number" :min="6" :max="6"></x-input>
         </flexbox-item>
         <flexbox-item :span="5">
           <div @click="getRegisterCode" class="flex-demo weui_cell mm-code-btn">
@@ -24,7 +24,7 @@
       </flexbox>
       <flexbox class="mm-border-bottom">
         <flexbox-item>
-          <x-input placeholder="设置登录密码(6-14位)"></x-input>
+          <x-input v-ref:inputPassword :required="true" :value.sync="password" placeholder="设置登录密码(6-14位)" :min="6" :max="14" ></x-input>
         </flexbox-item>
       </flexbox>
       <flexbox class="mm-reg-btn">
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-
+    <toast :show.sync="isVailed" type="warn">{{validText}}</toast>
   </div>
   <car-brand-panel v-if="isShowCarBrand" transition="page"></car-brand-panel>
 </template>
@@ -58,13 +58,18 @@
   import Divider from "./ui/Divider"
   import XInput from "vux-components/x-input"
   import XButton from "vux-components/x-button"
+  import Toast from "vux-components/toast"
   import CarBrandPanel from "./CarBrandPanel"
   import CommonTool from "../vendors/common"
   export default{
     data(){
       return {
         isShowCarBrand:false,
-        telephone:"18601363531"
+        telephone:"",
+        password:"",
+        registerCode:"",
+        isVailed:false,
+        validText:""
       }
     },
     methods:{
@@ -73,13 +78,18 @@
       },
       getRegisterCode(){
         let me = this;
-//        me.$http.post(mmapi.getRegisterCode,{
-//          info:"{telephone:"+me.telephone+"}"
-//        }).then(function(response){
-//          console.info(response)
-//        }, function(err){
-//
-//        });
+        if(!me.telephone&&!me.refs.inputmobile.valid){
+          me.validText = "输入手机号哦~"
+          me.isVailed = true;
+        }else{
+          me.$http.post(mmapi.getRegisterCode,{
+            info:"{telephone:"+me.telephone+"}"
+          }).then(function(response){
+            console.info(response)
+          }, function(err){
+
+          });
+        }
       },
       updateRegister(){
         this.isShowCarBrand = true;
@@ -90,7 +100,8 @@
       FlexboxItem,
       XInput,
       XButton,
-      CarBrandPanel
+      CarBrandPanel,
+      Toast
     }
   }
 </script>

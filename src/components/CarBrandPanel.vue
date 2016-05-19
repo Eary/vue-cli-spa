@@ -6,12 +6,14 @@
       选择想买的车
     </x-header>
 
-    <div class="content content-padded" style="margin-top: 50px;">
-      <group title="热门品牌">
+    <div class="content" style="margin-top: 40px;">
+      <group class="hot-area" title="热门品牌">
         <flexbox>
-          <flexbox-item><div class="flex-demo">1</div></flexbox-item>
-          <flexbox-item><div class="flex-demo">2</div></flexbox-item>
-          <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+          <flexbox-item v-for="hot in hotlist" @click="shoudongClickAlphabet(hot)">
+            <div class="hot-item">
+              <img :src="hot.image" />
+            </div>
+          </flexbox-item>
         </flexbox>
       </group>
       <alphabet-panel :list="list" title-flag="name" img-flag="image" :type="type"></alphabet-panel>
@@ -82,13 +84,15 @@
               curCartCarList:[],
               curCartCarVolume:0,
               registerDone:false,
-              curCartCarItem:{}
+              curCartCarItem:{},
+              hotlist:[]
             }
         },
         ready(){
           var me = this;
           me.$http.get('/static/data.json').then(function(response){
             let json = response.data;
+            me.hotlist = json.hotlist;
             for(let i in json.list){
               let _curBrand = json.list[i];
               //判断是否为汉字 是的话转为拼音
@@ -121,6 +125,9 @@
           },
           closeCartCarPopup(){
             this.showCartCarPopup = false
+          },
+          shoudongClickAlphabet(item){
+            this.$dispatch("on-click-alphabet-item",item);
           }
         },
         events:{
@@ -179,5 +186,17 @@
   .active-6-3 {
     color: rgb(55, 174, 252) !important;
     border-color: rgb(55, 174, 252) !important;
+  }
+  .hot-item img {
+    width:60%;
+  }
+  .hot-area {
+    background: #efefef!important;
+  }
+  .hot-area .weui_cells {
+    background: #efefef!important;
+  }
+  .hot-area .vux-flexbox-item {
+    text-align: center;;
   }
 </style>

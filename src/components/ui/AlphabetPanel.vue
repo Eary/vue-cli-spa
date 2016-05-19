@@ -13,13 +13,13 @@
 <template>
   <div class="weui_panel weui_panel_access">
     <!--字母表-->
-    <div class="letter-zhishi">
-      <ul>
-        <li
-          v-for="item in listDataByLetters | orderBy letterByPinyin"
-        >{{item.letter}}</li>
-      </ul>
-    </div>
+    <!--<div class="letter-zhishi">-->
+      <!--<ul>-->
+        <!--<li-->
+          <!--v-for="item in listDataByLetters | orderBy letterByPinyin"-->
+        <!--&gt;{{item.letter}}</li>-->
+      <!--</ul>-->
+    <!--</div>-->
     <!--数据-->
     <template v-for="item in listDataByLetters | orderBy letterByPinyin">
       <div class="weui_panel_hd" @click="onClickHeader">{{item.letter}}</div>
@@ -60,17 +60,17 @@
     },
     ready(){
       let me = this;
-      document.querySelector(".letter-zhishi").addEventListener("touchmove", function (event) {
-        let _offsetLeft = this.offsetLeft;
-        let _touch = event.touches[0];
-        let _y = _touch.clientY;
-        let _touchEle = document.elementFromPoint(_offsetLeft, _y);
-        let _curLetter = _touchEle.innerText.toUpperCase();
-        if (_curLetter != me.$data.$touchTempLetter) {
-          me.$data.$touchTempLetter = _curLetter;
-          console.info(_curLetter);
-        }
-      })
+//      document.querySelector(".letter-zhishi").addEventListener("touchmove", function (event) {
+//        let _offsetLeft = this.offsetLeft;
+//        let _touch = event.touches[0];
+//        let _y = _touch.clientY;
+//        let _touchEle = document.elementFromPoint(_offsetLeft, _y);
+//        let _curLetter = _touchEle.innerText.toUpperCase();
+//        if (_curLetter != me.$data.$touchTempLetter) {
+//          me.$data.$touchTempLetter = _curLetter;
+//          console.info(_curLetter);
+//        }
+//      })
     },
     methods: {
       onClickFooter () {

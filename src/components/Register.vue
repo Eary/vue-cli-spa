@@ -1,10 +1,5 @@
 <template>
   <div class="page page-current">
-    <!--<x-header-->
-      <!--:left-options="{showBack: false}"-->
-    <!--&gt;-->
-      <!--用户注册-->
-    <!--</x-header>-->
     <div class="content content-padded" style="margin-top: 50px;">
       <div class="register-logo">
         <img src="../assets/register-logo.png" />
@@ -91,7 +86,6 @@
       }
     },
     components: {
-//      XHeader,
       Flexbox,
       FlexboxItem,
       XInput,

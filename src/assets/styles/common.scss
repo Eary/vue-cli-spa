@@ -1,3 +1,6 @@
+html,body {
+  font-family: PingFangSC-Light, Droidsansfallback,Droid Sans,sans-serif;
+}
 //sui page
 .page {
   position: absolute;
@@ -163,4 +166,8 @@
 .mm-cart-panel .weui_panel_hd {
   padding-top:5px!important;
   padding-bottom:5px!important;
+}
+.mm-font-cu {
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600!important;
 }

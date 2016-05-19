@@ -102,7 +102,7 @@
     left: 0;
     width: 12px;
     height: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     border-width: 1px 0 0 1px;
     margin-left: 3px;
     margin-top: 1px;

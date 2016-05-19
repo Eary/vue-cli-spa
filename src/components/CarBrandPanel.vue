@@ -53,12 +53,14 @@
         </div>
       </popup>
     </div>
+    <register-done v-if="registerDone" :cur-car-item="curCartCarItem" transition="page"></register-done>
   </div>
 </template>
 <script>
   import Flexbox from "./ui/Flexbox"
   import FlexboxItem from "./ui/FlexboxItem"
   import AlphabetPanel from "./ui/AlphabetPanel"
+  import RegisterDone from "./RegisterDone"
   import Panel from "./ui/Panel"
   import Group from "./ui/Group"
   import Popup from "./ui/popup/"
@@ -78,7 +80,9 @@
               showCartCarPopup:false,
               curCarTypeList:[],
               curCartCarList:[],
-              curCartCarVolume:0
+              curCartCarVolume:0,
+              registerDone:false,
+              curCartCarItem:{}
             }
         },
         ready(){
@@ -141,17 +145,13 @@
               //显示排量
               me.showCartCarPopup = true
             })
-//            me.$http.get('/static/cartcar.json').then(function(response){
-//              console.info(response);
-////              let data  = response.data;
-////              me.curCarTypeList = data.list
-////              this.showCarTypePopup = true
-//            })
           },
           "on-click-cartcar-item":function(item){
             //请求品牌的车型列表
             let me = this;
-            //注册
+            //注册流程
+            me.curCartCarItem = item;
+            me.registerDone = true;
           }
         },
         components:{
@@ -162,7 +162,8 @@
           Popup,
           Panel,
           Tab,
-          TabItem
+          TabItem,
+          RegisterDone
         }
     }
 </script>

@@ -1,6 +1,6 @@
 # 目前进度
 
-[](http://7jpswm.com1.z0.glb.clouddn.com/mmcardemo.gif)
+![已完成部分演示](http://7jpswm.com1.z0.glb.clouddn.com/mmcardemo.gif)
 
 # mmcar
 
